@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="Comment From Game Designers" display-tooltip-when-elided="true" />
+    <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" />
+    <uie:ColorField label="Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" binding-path="asteroidColor" />
+</ui:UXML>
